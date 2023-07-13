@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-.nav {
+.navNav {
     display: flex;
     justify-content: space-between;
     margin-left: 63px;
@@ -11,24 +11,24 @@
     margin-right: 83px;
 }
 
-ul {
+.ulNav {
     display: flex;
     flex-direction: row;
     align-items: center;
     column-gap: 52px;
 }
 
-ul li{
+.ulNav li {
     list-style-type: none;
     color: #00ad6a;
     font-size: 1.1em;
 }
 
-ul li a {
+.ulNav li a {
     text-decoration: none;
     color: #00ad6a;
 }
 
-ul li a:hover {
+.ulNav li a:hover {
     color: black;
 }
