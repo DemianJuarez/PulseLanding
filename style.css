@@ -2,3 +2,33 @@
     padding: 0;
     margin: 0;
 }
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 63px;
+    margin-top: 50px;
+    margin-right: 83px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 52px;
+}
+
+ul li{
+    list-style-type: none;
+    color: #00ad6a;
+    font-size: 1.1em;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #00ad6a;
+}
+
+ul li a:hover {
+    color: black;
+}
